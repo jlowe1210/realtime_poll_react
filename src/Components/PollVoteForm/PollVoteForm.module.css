@@ -1,0 +1,14 @@
+.vote_btn {
+  text-decoration: none;
+  background-color: #60dcfb;
+  padding: 10px 15px;
+  color: white;
+  border-radius: 5px;
+  border: none;
+}
+
+.vote_btn:disabled,
+.vote_btn[disabled] {
+  background: linear-gradient(47deg, gray, grey, grey);
+  cursor: not-allowed;
+}

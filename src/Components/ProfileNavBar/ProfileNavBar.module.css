@@ -1,0 +1,22 @@
+.profilepage_nav {
+  display: flex;
+  justify-content: center;
+  list-style: none;
+  gap: 10px;
+}
+
+.profilepage_nav li {
+  border-left: 0.5px solid black;
+  border-right: 0.5px solid black;
+  padding: 0 5px;
+}
+
+.navlink {
+  text-decoration: none;
+  color: #3f3d56;
+}
+
+.navlink_active {
+  text-decoration: none;
+  color: #60dcfb;
+}
